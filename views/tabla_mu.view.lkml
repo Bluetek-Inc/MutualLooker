@@ -6,9 +6,9 @@ view: tabla_mu {
     sql: ${TABLE}.CO2 ;;
   }
 
-  dimension: id_disp {
+  dimension: id {
     type: string
-    sql: ${TABLE}.id_disp;;
+    sql: ${TABLE}.id;;
   }
 
   dimension: pm1 {
