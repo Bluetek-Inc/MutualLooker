@@ -1,5 +1,5 @@
 view: TablaMutual {
-  sql_table_name: dbo.Tabla_Mu ;;
+  sql_table_name: dbo.TablaMu ;;
 
   dimension: co2 {
     type: number
