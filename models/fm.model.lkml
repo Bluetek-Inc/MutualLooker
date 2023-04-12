@@ -15,3 +15,5 @@ explore: alertas_mutual {}
 explore: sysdiagrams {}
 
 explore: tabla_mu {}
+
+explore: TablaMutual {}
