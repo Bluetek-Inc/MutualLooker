@@ -30,7 +30,7 @@ view: tabla_mu {
   dimension: rh {
     type: number
     sql: ${TABLE}.RH ;;
-    value_format: "0.0"
+    value_format: "0.0\%"
   }
 
   dimension: t {
