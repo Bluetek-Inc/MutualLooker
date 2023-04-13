@@ -24,6 +24,7 @@ view: tabla_mu {
   dimension: pm2_5 {
     type: number
     sql: ${TABLE}.pm2_5 ;;
+    value_format: "0.0\" μg/m3\""
   }
 
   dimension: rh {
@@ -35,7 +36,7 @@ view: tabla_mu {
   dimension: t {
     type: number
     sql: ${TABLE}.T ;;
-    value_format: "0.0"
+    value_format: "0.0\" °C\""
   }
 
   dimension_group: time {
