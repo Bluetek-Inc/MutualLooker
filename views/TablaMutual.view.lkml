@@ -80,7 +80,7 @@ view: TablaMutual {
         label: "En Rango"
       }
       when: {
-        sql: ${t} > 24  OR ${t} < 18;;
+        sql: ${rh} > 50  OR ${rh} < 30;;
         label: "Fuera de rango"
       }
     }

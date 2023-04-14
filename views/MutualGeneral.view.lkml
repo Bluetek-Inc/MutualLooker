@@ -73,6 +73,19 @@ view: MutualGeneral {
     drill_fields: []
   }
 
+  dimension: estadodisp{
+    case: {
+      when: {
+        sql: ${rh} <= 50 AND ${rh} >= 30 AND ${t} <= 24 AND ${t} >= 18;;
+        label: "En Rango"
+      }
+      when: {
+        sql: ${t} > 24  OR ${t} < 18 OR ${rh} < 30 OR ${rh} > 50;;
+        label: "Fuera de rango"
+      }
+    }
+  }
+
   dimension: estadoRH{
     case: {
       when: {
@@ -80,7 +93,7 @@ view: MutualGeneral {
         label: "En Rango"
       }
       when: {
-        sql: ${t} > 24  OR ${t} < 18;;
+        sql: ${rh} > 50  OR ${rh} < 30;;
         label: "Fuera de rango"
       }
     }
