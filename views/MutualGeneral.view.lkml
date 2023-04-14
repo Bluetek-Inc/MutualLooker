@@ -67,10 +67,10 @@ view: MutualGeneral {
     drill_fields: []
     value_format: "0\" Horas\""
   }
-
+  ##cambiar el 10/1008 por 50/1008 cuando funcione para mutual
   measure: Horas7d {
     type: number
-    sql: ${count} * 50/1008 ;;
+    sql: ${count} * 10/1008 ;;
     drill_fields: []
     value_format: "0\" %\""
   }
