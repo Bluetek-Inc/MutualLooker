@@ -17,3 +17,5 @@ explore: sysdiagrams {}
 explore: tabla_mu {}
 
 explore: TablaMutual {}
+
+explore: MutualGeneral {}
