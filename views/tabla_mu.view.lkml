@@ -81,7 +81,7 @@ view: tabla_mu {
         label: "En Rango"
       }
       when: {
-        sql: ${t} > 24 AND ${t} < 18;;
+        sql: ${t} > 50 AND ${t} < 30;;
         label: "Fuera de rango"
       }
     }
