@@ -81,7 +81,7 @@ view: tabla_mu {
         label: "En Rango"
       }
       when: {
-        sql: ${t} > 50 AND ${t} < 30;;
+        sql: ${rh} > 50 AND ${rh} < 30;;
         label: "Fuera de rango"
       }
     }
@@ -92,7 +92,10 @@ view: tabla_mu {
         sql: ${t} <= 24 AND ${t} >= 18;;
         label: "En Rango"
       }
-      else:"Fuera de Rango"
+      when: {
+        sql: ${t} > 24 AND ${t} < 18;;
+        label: "Fuera de Rango"
+      }
     }
   }
   dimension: estadopm2_5{
