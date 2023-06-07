@@ -68,9 +68,9 @@ view: MutualGeneral {
     value_format: "0\" Horas\""
   }
   ##cambiar el 10/1008 por 50/1008 cuando funcione para mutual
-  measure: Horas7d {
+  measure: Semana {
     type: number
-    sql: ${count} ;;
+    sql: ${count} * 100/10080 ;;
     drill_fields: [time_time, rh, t]
     value_format: "0\" %\""
   }
