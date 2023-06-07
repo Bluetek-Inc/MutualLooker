@@ -14,11 +14,13 @@ view: tabla_mu {
   dimension: pm1 {
     type: number
     sql: ${TABLE}.pm1 ;;
+    value_format: "0.0\" μg/m3\""
   }
 
   dimension: pm10 {
     type: number
     sql: ${TABLE}.pm10 ;;
+    value_format: "0.0\" μg/m3\""
   }
 
   dimension: pm2_5 {
