@@ -76,7 +76,7 @@ view: MutualGeneral {
   }
   measure: Horas7dp {
     type: number
-    sql: (1 - (${count} * 1/1008)) ;;
+    sql: (100 - (${count} * 1/1008)) ;;
     drill_fields: [time_time, rh, t]
     value_format: "0\" %\""
   }
