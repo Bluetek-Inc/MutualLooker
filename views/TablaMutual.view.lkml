@@ -112,6 +112,32 @@ view: TablaMutual {
     }
   }
 
+  dimension: estadopmCO2{
+    case: {
+      when: {
+        sql: ${co2} <= 50 AND ${co2} >= 0;;
+        label: "En Rango"
+      }
+      when: {
+        sql: ${co2} > 50;;
+        label: "Fuera de Rango"
+      }
+    }
+  }
+
+  dimension: estadopmTVOC{
+    case: {
+      when: {
+        sql: ${tvoc} <= 50 AND ${tvoc} >= 0;;
+        label: "En Rango"
+      }
+      when: {
+        sql: ${tvoc} > 50;;
+        label: "Fuera de Rango"
+      }
+    }
+  }
+
   measure: avg_rh {
     type: average
     sql: ${rh} ;;
