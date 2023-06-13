@@ -85,7 +85,7 @@ view: MutualGeneral {
   dimension: estadodisp{
    case: {
     when: {
-      sql: ${pm2_5} < 49;;
+      sql: ${pm2_5} < 50;;
       label: "Bueno"
     }
     when: {
