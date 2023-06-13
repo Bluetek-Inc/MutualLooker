@@ -83,16 +83,28 @@ view: MutualGeneral {
   }
 
   dimension: estadodisp{
-    case: {
-      when: {
-        sql: ${rh} <= 50 AND ${rh} >= 30 AND ${t} <= 24 AND ${t} >= 18;;
-        label: "En Rango"
-      }
-      when: {
-        sql: ${t} > 24  OR ${t} < 18 OR ${rh} < 30 OR ${rh} > 50;;
-        label: "Fuera de rango"
-      }
+   case: {
+    when: {
+      sql: ${pm2_5} < 49;;
+      label: "Bueno"
     }
+    when: {
+      sql: ${pm2_5} >= 50 AND ${pm2_5} < 79;;
+      label: "Regular"
+    }
+    when: {
+      sql: ${pm2_5} >= 80 AND ${pm2_5} < 109;;
+      label: "Alerta"
+    }
+    when: {
+      sql: ${pm2_5} >= 110 AND ${pm2_5} < 169;;
+      label: "Pre-Emergencia"
+    }
+    when: {
+      sql: ${pm2_5} >= 170;;
+      label: "Emergencia"
+    }
+  }
   }
 
   dimension: estadoRH{
