@@ -74,6 +74,12 @@ view: MutualGeneral {
     drill_fields: [time_time, pm2_5]
     value_format: "0\" %\""
   }
+  measure: 2semanas {
+    type: number
+    sql: ${count} * 100/20160 ;;
+    drill_fields: [id, time_time, rh, t]
+    value_format: "0\" %\""
+  }
 
 
   measure: 15min {
