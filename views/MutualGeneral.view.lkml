@@ -89,15 +89,15 @@ view: MutualGeneral {
       label: "Bueno"
     }
     when: {
-      sql: ${pm2_5} >= 50 AND ${pm2_5} < 79;;
+      sql: ${pm2_5} >= 50 AND ${pm2_5} < 80;;
       label: "Regular"
     }
     when: {
-      sql: ${pm2_5} >= 80 AND ${pm2_5} < 109;;
+      sql: ${pm2_5} >= 80 AND ${pm2_5} < 110;;
       label: "Alerta"
     }
     when: {
-      sql: ${pm2_5} >= 110 AND ${pm2_5} < 169;;
+      sql: ${pm2_5} >= 110 AND ${pm2_5} < 170;;
       label: "Pre-Emergencia"
     }
     when: {
