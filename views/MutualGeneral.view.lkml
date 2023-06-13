@@ -71,7 +71,7 @@ view: MutualGeneral {
   measure: Semana {
     type: number
     sql: ${count} * 100/10080 ;;
-    drill_fields: [time_time, rh, t]
+    drill_fields: [time_time, pm2_5]
     value_format: "0\" %\""
   }
 
