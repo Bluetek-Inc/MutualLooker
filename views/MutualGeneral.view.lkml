@@ -70,13 +70,13 @@ view: MutualGeneral {
   ##cambiar el 10/1008 por 50/1008 cuando funcione para mutual
   measure: Semana {
     type: number
-    sql: ${count} * 100/17597 ;;
+    sql: ${count} * 100/18720 ;;
     drill_fields: [time_time, pm2_5]
     value_format: "0\" %\""
   }
   measure: 2semanas {
     type: number
-    sql: ${count} * 100/17597 ;;
+    sql: ${count} * 100/18720 ;;
     drill_fields: [id, time_time, rh, t]
     value_format: "0\" %\""
   }
