@@ -76,7 +76,7 @@ view: MutualGeneral {
   }
   measure: 2semanas {
     type: number
-    sql: ${count} * 1/17597 ;;
+    sql: ${count} * 100/17597 ;;
     drill_fields: [id, time_time, rh, t]
     value_format: "0\" %\""
   }
