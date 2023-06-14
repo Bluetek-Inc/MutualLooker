@@ -113,6 +113,19 @@ view: MutualGeneral {
   }
   }
 
+  dimension: estadodisp2{
+    case: {
+      when: {
+        sql: ${pm2_5} < 80;;
+        label: "Bueno"
+      }
+      when: {
+        sql: ${pm2_5} >= 80;;
+        label: "Malo"
+      }
+    }
+  }
+
   dimension: estadoRH{
     case: {
       when: {
