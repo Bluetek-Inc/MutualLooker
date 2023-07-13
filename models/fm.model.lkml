@@ -19,3 +19,7 @@ explore: tabla_mu {}
 explore: TablaMutual {}
 
 explore: MutualGeneral {}
+
+explore: tabla_con_nombres {}
+
+explore: sql_runner_query {}
