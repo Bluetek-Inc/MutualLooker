@@ -129,7 +129,7 @@ view: MutualGeneral {
   dimension: idpersonalizado {
     case: {
       when: {
-        sql: ${TABLE}.id = 'BS-100L-0001'3;;
+        sql: ${TABLE}.id = 'BS-100L-00013';;
         label: "Bulldozer 484"
         }
       when: {
