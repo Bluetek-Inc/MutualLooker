@@ -129,35 +129,35 @@ view: MutualGeneral {
   dimension: idpersonalizado {
     case: {
       when: {
-        sql: ${TABLE}.id = BS-100L-00013;;
+        sql: ${TABLE}.id = 'BS-100L-0001'3;;
         label: "Bulldozer 484"
         }
       when: {
-        sql: ${TABLE}.id = BS-100L-00014;;
+        sql: ${TABLE}.id = 'BS-100L-00014';;
         label: "Motoniveladora 890"
       }
       when: {
-        sql: ${TABLE}.id = BS-100L-00017;;
+        sql: ${TABLE}.id = 'BS-100L-00017';;
         label: "Excavadora 887"
       }
       when: {
-        sql: ${TABLE}.id = BS-100L-00018;;
+        sql: ${TABLE}.id = 'BS-100L-00018';;
         label: "Retroexcavadora 171"
       }
       when: {
-        sql: ${TABLE}.id = BS-100L-00020;;
+        sql: ${TABLE}.id = 'BS-100L-00020';;
         label: "Camión Articulado 741"
       }
       when: {
-        sql: ${TABLE}.id = BS-100L-00021;;
+        sql: ${TABLE}.id = 'BS-100L-00021';;
         label: "Rodillo 518"
       }
       when: {
-        sql: ${TABLE}.id = BS-100L-00022;;
+        sql: ${TABLE}.id = 'BS-100L-00022';;
         label: "Camión Aljibe 327"
       }
       when: {
-        sql: ${TABLE}.id = BS-001G-00003;;
+        sql: ${TABLE}.id = 'BS-001G-00003';;
         label: "Oficina"
       }
 
