@@ -126,6 +126,44 @@ view: MutualGeneral {
     }
   }
 
+  dimension: idpersonalizado {
+    case: {
+      when: {
+        sql: ${TABLE}.id = BS-100L-00013;;
+        label: "Bulldozer 484"
+        }
+      when: {
+        sql: ${TABLE}.id = BS-100L-00014;;
+        label: "Bulldozer 484"
+      }
+      when: {
+        sql: ${TABLE}.id = BS-100L-00017;;
+        label: "Bulldozer 484"
+      }
+      when: {
+        sql: ${TABLE}.id = BS-100L-00018;;
+        label: "Bulldozer 484"
+      }
+      when: {
+        sql: ${TABLE}.id = BS-100L-00020;;
+        label: "Bulldozer 484"
+      }
+      when: {
+        sql: ${TABLE}.id = BS-100L-00021;;
+        label: "Bulldozer 484"
+      }
+      when: {
+        sql: ${TABLE}.id = BS-100L-00022;;
+        label: "Bulldozer 484"
+      }
+      when: {
+        sql: ${TABLE}.id = BS-001G-00003;;
+        label: "Bulldozer 484"
+      }
+
+      }
+    }
+
   dimension: estadoRH{
     case: {
       when: {
