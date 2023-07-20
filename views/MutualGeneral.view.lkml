@@ -160,6 +160,22 @@ view: MutualGeneral {
         sql: ${TABLE}.id = 'BS-001G-00003';;
         label: "Oficina"
       }
+      when: {
+        sql: ${TABLE}.id = 'BS-001G-00015';;
+        label: "Bulldozer 889"
+      }
+      when: {
+        sql: ${TABLE}.id = 'BS-001G-00016';;
+        label: "Excavadora 791"
+      }
+      when: {
+        sql: ${TABLE}.id = 'BS-001G-00019';;
+        label: "Camión Articulado 740"
+      }
+      when: {
+        sql: ${TABLE}.id = 'BS-001G-00003';;
+        label: "Oficina"
+      }
 
       }
     }
