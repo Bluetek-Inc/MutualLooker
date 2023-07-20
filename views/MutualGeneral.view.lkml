@@ -161,15 +161,15 @@ view: MutualGeneral {
         label: "Oficina"
       }
       when: {
-        sql: ${TABLE}.id = 'BS-001G-00015';;
+        sql: ${TABLE}.id = 'BS-100L-00015';;
         label: "Bulldozer 889"
       }
       when: {
-        sql: ${TABLE}.id = 'BS-001G-00016';;
+        sql: ${TABLE}.id = 'BS-100L-00016';;
         label: "Excavadora 791"
       }
       when: {
-        sql: ${TABLE}.id = 'BS-001G-00019';;
+        sql: ${TABLE}.id = 'BS-100L-00019';;
         label: "Camión Articulado 740"
       }
       }
