@@ -172,11 +172,6 @@ view: MutualGeneral {
         sql: ${TABLE}.id = 'BS-001G-00019';;
         label: "Camión Articulado 740"
       }
-      when: {
-        sql: ${TABLE}.id = 'BS-001G-00003';;
-        label: "Oficina"
-      }
-
       }
     }
 
